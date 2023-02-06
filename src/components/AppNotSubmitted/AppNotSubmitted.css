@@ -1,0 +1,19 @@
+@media all and (max-width:768px) {
+    .formLabel {
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .inputText{
+        border: 1px solid black;
+        padding:10px;
+        border-radius: 5px;
+        width:150px;
+    }
+
+    .instruction{
+        font-size: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

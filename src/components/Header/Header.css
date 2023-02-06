@@ -1,0 +1,17 @@
+@media all and (max-width:768px) {
+    .header {
+        height: 200px;
+        background-color: blueviolet;
+        color:white;
+        font-weight: bold;
+        font-size: 24px;
+        padding-left: 20px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+@media all and (min-width:768px) {}
