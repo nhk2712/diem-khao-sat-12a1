@@ -8,22 +8,7 @@ import Header from "./components/Header/Header";
 import TechnicalSupport from "./components/TechnicalSupport/TechnicalSupport";
 
 function App() {
-    const SAMPLE_DATA = {
-        _id:"090305",
-        name:"Nguyễn Hoàng Khánh",
-        dob:"27/12/2005",
-        clazz:"12A1",
-        van:8,
-        toan:9.6,
-        ngoai_ngu:7.8,
-        ly:8.5,
-        hoa:7.25,
-        sinh:7,
-        su:"",
-        dia:"",
-        gdcd:""
-    };
-    const [result, setResult] = useState(SAMPLE_DATA);
+    const [result, setResult] = useState(null);
     const [studentId, setStudentId] = useState("");
     const [dob, setDob] = useState("");
     const [loading, setLoading] = useState(false);
