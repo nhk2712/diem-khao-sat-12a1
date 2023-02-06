@@ -17,7 +17,7 @@ function AppNotSubmitted({setStudentId,setDob,requestResult}) {
                 </tr>
             </tbody></table>
             <div className="buttonArea">
-                <button className="mainButton" onClick={requestResult}>Tra cứu</button>
+                <button className="mainButton" onClick={()=>{requestResult();window.blur()}}>Tra cứu</button>
             </div>
         </div>
 
