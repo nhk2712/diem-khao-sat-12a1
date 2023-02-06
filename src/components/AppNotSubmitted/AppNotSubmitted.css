@@ -43,12 +43,3 @@
         display: flex;
     }
 }
-
-.inputText {
-    transition: 0.5s;
-    outline: none;
-}
-
-.inputText:focus {
-    box-shadow: -2px 0 blueviolet, 0 2px blueviolet, 2px 0 blueviolet, 0 -2px blueviolet;
-}
