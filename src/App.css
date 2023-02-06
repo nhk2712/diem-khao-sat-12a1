@@ -16,7 +16,7 @@
         margin-bottom: 50px;
     }
 
-    .buttonArea{
+    .buttonArea {
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
@@ -28,17 +28,17 @@
         background-color: blueviolet;
         border: none;
         border-radius: 5px;
-        color:white;
+        color: white;
         font-size: 20px;
         transition: 0.5s;
     }
 
-    .mainButton:hover{
-        transform:scale(0.9);
+    .mainButton:hover {
+        transform: scale(0.9);
     }
 
-    ul{
-        margin:0px;
+    ul {
+        margin: 0px;
     }
 }
 
@@ -54,7 +54,7 @@
         margin-bottom: 50px;
     }
 
-    .buttonArea{
+    .buttonArea {
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
@@ -66,16 +66,17 @@
         background-color: blueviolet;
         border: none;
         border-radius: 5px;
-        color:white;
+        color: white;
         font-size: 20px;
         transition: 0.5s;
+        cursor: pointer;
     }
 
-    .mainButton:hover{
-        transform:scale(0.9);
+    .mainButton:hover {
+        transform: scale(0.9);
     }
 
-    ul{
-        margin:0px;
+    ul {
+        margin: 0px;
     }
 }

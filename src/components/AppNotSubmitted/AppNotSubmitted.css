@@ -4,15 +4,15 @@
         font-size: 20px;
     }
 
-    .inputText{
+    .inputText {
         border: 1px solid black;
-        padding:10px;
+        padding: 10px;
         border-radius: 5px;
-        width:150px;
+        width: 150px;
         font-size: 17px;
     }
 
-    .instruction{
+    .instruction {
         font-size: 17px;
         margin-left: 10px;
         margin-right: 10px;
@@ -25,21 +25,30 @@
         font-size: 20px;
     }
 
-    .inputText{
+    .inputText {
         border: 1px solid black;
-        padding:10px;
+        padding: 10px;
         border-radius: 5px;
-        width:150px;
+        width: 150px;
         font-size: 17px;
     }
 
-    .instruction{
+    .instruction {
         font-size: 20px;
         margin-left: 70px;
         margin-right: 10px;
     }
 
-    .AppNotSubmitted{
-        display:flex;
+    .AppNotSubmitted {
+        display: flex;
     }
+}
+
+.inputText {
+    transition: 0.5s;
+    outline: none;
+}
+
+.inputText:focus {
+    box-shadow: -2px 0 blueviolet, 0 2px blueviolet, 2px 0 blueviolet, 0 -2px blueviolet;
 }

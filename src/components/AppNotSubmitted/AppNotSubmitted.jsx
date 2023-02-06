@@ -9,12 +9,12 @@ function AppNotSubmitted({ setStudentId, setDob, requestResult }) {
                 <table style={{ marginBottom: "20px" }}><tbody>
                     <tr>
                         <td className="formLabel">Số báo danh:</td>
-                        <td><input type="text" className="inputText" placeholder="123456" onChange={(e) => { setStudentId(e.target.value) }} /></td>
+                        <td><input type="text" className="inputText" placeholder="123456" required onChange={(e) => { setStudentId(e.target.value) }} /></td>
                     </tr>
                     <tr style={{ height: "20px" }}></tr>
                     <tr>
                         <td className="formLabel">Ngày sinh:</td>
-                        <td><input type="text" className="inputText" placeholder="23/01/2005" onChange={(e) => { setDob(e.target.value) }} /></td>
+                        <td><input type="text" className="inputText" placeholder="23/01/2005" required onChange={(e) => { setDob(e.target.value) }} /></td>
                     </tr>
                 </tbody></table>
                 <div className="buttonArea">
