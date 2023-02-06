@@ -14,4 +14,18 @@
     }
 }
 
-@media all and (min-width:768px) {}
+@media all and (min-width:768px) {
+    .header {
+        height: 150px;
+        background-color: blueviolet;
+        color:white;
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
